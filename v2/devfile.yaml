@@ -5,7 +5,7 @@ metadata:
 components:
   - name: installator
     container:
-      image: bankingaob-docker-virtual.bin.swisscom.com/ccb/avaloq-installator:1.17.1-1
+      image: bankingaob-docker-virtual.bin.swisscom.com/ccb/avaloq-installator:1.19.0-1
       memoryLimit: 1024Mi
       sourceMapping: /projects
       mountSources: true
