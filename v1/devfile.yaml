@@ -1,0 +1,12 @@
+---
+apiVersion: 1.0.0
+metadata:
+  generateName: avaloq-installator-
+components:
+  -
+    type: dockerimage
+    alias: installator
+    image: bankingaob-docker-virtual.bin.swisscom.com/ccb/avaloq-installator:1.19.0-1
+    memoryLimit: 512Mi
+    mountSources: true
+# todo: add command to login to cluster with $CLUSTER_API_URL
